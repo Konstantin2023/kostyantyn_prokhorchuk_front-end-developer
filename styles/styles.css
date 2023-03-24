@@ -1,13 +1,12 @@
 h4 {
   margin-top: 10px;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 li {
   list-style: none;
 }
 body {
-  font-family: "Montserrat", sans-serif;
   background-color: #f5f7fa;
 }
 
@@ -22,7 +21,10 @@ body {
 }
 
 .main-content {
-  padding: 60px;
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  /* padding: 60px; */
 }
 /* .main-content {
   background-color: #fff;
@@ -33,17 +35,18 @@ body {
 /* about styles */
 
 .about {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 .abaut-position {
   display: flex;
-  font-style: normal;
+  /* font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 27px;
+  line-height: 27px; */
   color: #000000;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   justify-content: center;
   /* margin-right: 30%; */
   /* font-family: "Courgette", cursive; */
@@ -51,13 +54,13 @@ body {
 }
 
 .abaut-name {
-  font-family: "Courgette", cursive;
-  font-style: normal;
+  /* font-style: normal;
   font-weight: 700;
   font-size: 85px;
-  line-height: 85px;
+  line-height: 85px; */
+
   color: #000000;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   display: flex;
   justify-content: center;
   margin-top: 0px;
@@ -68,25 +71,28 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  /* color: #595959; */
   /* width: 400px; */
   display: flex;
   justify-content: center;
   margin-top: 10px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
+  margin-bottom: 0px;
 }
 
 /* projects styles */
 .project-name {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .projects {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .projects-ul {
   padding-left: 0px;
+  margin-top: 10px;
 }
 
 .project_link {
@@ -95,14 +101,13 @@ body {
 }
 
 .title {
-  font-style: normal;
+  /* font-style: normal;
   font-weight: 700;
   font-size: 22px;
-  line-height: 27px;
+  line-height: 27px; */
   color: #000000;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: "Courgette", cursive;
 }
 
 .projects-list {
@@ -110,9 +115,11 @@ body {
   margin-left: 15px;
 }
 
-/* .projects-text {
-  width: 300px;
-} */
+.projects-text {
+  /* width: 300px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 .project-item {
   font-style: normal;
@@ -128,7 +135,8 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  /* color: #595959; */
+  color: #000;
 }
 
 .project-link {
@@ -146,36 +154,38 @@ body {
 /* work styles */
 
 .work {
-  margin-bottom: 45px;
+  margin-bottom: 10px;
 }
+
 .work-title {
-  font-family: "Bungee Inline", cursive;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .work-position {
-  font-style: normal;
+  /* font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 20px; */
   color: #000000;
   margin-bottom: 10px;
 }
 
-.organization {
-  font-style: normal;
+/* .organization {
+  /* font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
-  color: #fb3a3a;
-}
+  line-height: 20px; */
+/* color: #fb3a3a; */
 
 .period {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  color: #a8a8a8;
+  /* color: #a8a8a8; */
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .line {
@@ -196,7 +206,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  /* color: #595959; */
 }
 
 /* Education styles */
@@ -207,31 +217,31 @@ body {
 }
 
 .education-title {
-  font-style: normal;
+  /* font-style: normal;
   font-weight: 700;
   font-size: 22px;
-  line-height: 27px;
+  line-height: 27px; */
   color: #000000;
   margin-bottom: 10px;
-  font-family: "Josefin Sans", sans-serif;
+  margin-top: 10px;
 }
 
 .education-organization {
-  font-style: normal;
+  /* font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 20px;
-  color: #3a77fb;
+  line-height: 20px; */
+  /* color: #3a77fb; */
   margin-bottom: 0px;
   display: flex;
   justify-content: center;
 }
 
 .education-abaut-position {
-  font-style: normal;
+  /* font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 17px; */
   color: #000000;
   margin-bottom: 20px;
   display: flex;
@@ -239,20 +249,21 @@ body {
 }
 
 .education-period {
-  font-style: normal;
+  /* font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 15px;
-  color: #a8a8a8;
+  line-height: 15px; */
+  /* color: #a8a8a8; */
   margin-bottom: 0px;
+  margin-top: 10px;
 }
 
 /* sidebar styles */
 
 .sidebar {
   background-color: #dfe1d4;
-  width: 343px;
-  /* width: auto; */
+  /* width: 343px; */
+  width: auto;
 }
 
 .sidebar-title {
@@ -264,6 +275,7 @@ body {
   margin-bottom: 50px;
   margin-left: 40px;
   margin-top: 40px;
+  margin-right: 40px;
   border-radius: 10%;
 }
 
@@ -273,11 +285,14 @@ body {
 .languages {
   margin-left: 40px;
   margin-right: 40px;
+  margin-bottom: 10px;
 }
 
 .contacts-p {
   display: flex;
   align-items: baseline;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .contacts-li {
@@ -299,13 +314,13 @@ body {
 
 .sidebar-title,
 .languages-title {
-  color: #ffffff;
-  font-style: normal;
+  /* color: #ffffff; */
+  /* font-style: normal;
   font-weight: 700;
   font-size: 22px;
-  line-height: 27px;
+  line-height: 27px; */
   margin-bottom: 10px;
-  font-family: Courgette, cursive;
+
   display: flex;
   justify-content: center;
   margin-top: 0px;
@@ -321,21 +336,22 @@ body {
 } */
 
 .contact-link {
-  font-style: normal;
+  /* font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  color: #575f6b;
+  line-height: 24px; */
+  /* color: #575f6b; */
+  color: #000;
 }
 
-.tech-skills {
+/* .tech-skills {
   margin-bottom: 45px;
-}
+} */
 
 .tech-skills-list,
 .soft-skills-list,
 .languages-list {
-  color: #fff;
+  /* color: #fff; */
   padding: 0;
   margin-left: 17px;
 }
@@ -343,17 +359,17 @@ body {
 .tech-skills-item,
 .soft-skills-item,
 .languages-item {
-  color: #3afb40;
+  color: #eefb3a;
 }
 
 .tech-skills-text,
 .soft-skills-text,
 .languages-text {
   color: #000;
-  font-style: normal;
+  /* font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 24px; */
 }
 
 .number-information {
